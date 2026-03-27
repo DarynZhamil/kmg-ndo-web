@@ -54503,14 +54503,16 @@ A.Zj.prototype={
 I(a){var s=null
 return A.dv(A.ao(A.b([A.u("\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0414\u0417\u041e",s,s,s,s,A.r(s,s,this.e?B.a8:B.W,s,s,s,s,s,s,s,s,16.3,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.o0,A.ht(new A.aBg(this))],t.p),B.z,B.j,B.l),s,B.KM,s,B.as)}}
 A.aBg.prototype={
-$2(a,b){var s,r,q,p=b.b
-if(p>1200)s=6
-else if(p>800)s=4
-else{r=p>500?3:2
+$2(a,b){var s,r,q,p,o,n=b.b
+if(n>1200)s=6
+else if(n>800)s=4
+else{r=n>500?3:2
 s=r}r=14*(s-1)
-q=B.c.aZ((p-r)/s,0,350)
-p=this.a
-return A.ee(A.ap(A.aRg(new A.G1(s,14,14,1.4),new A.aBf(p),p.c.length,B.fc,!0),null,q*s+r),null,null)},
+q=B.c.aZ((n-r)/s,0,350)
+p=q/250
+n=p>0?p:1
+o=this.a
+return A.ee(A.ap(A.aRg(new A.G1(s,14,14,n),new A.aBf(o),o.c.length,B.fc,!0),null,q*s+r),null,null)},
 $S:246}
 A.aBf.prototype={
 $2(a,b){var s=A.du(0,600+b*100,0),r=this.a
