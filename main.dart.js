@@ -1283,7 +1283,7 @@ c.adoptText(b)
 c.first()
 for(s=a.length,r=0;!J.d(c.next(),-1);r=q){q=J.aR(c.current())
 for(p=r,o=0,n=0;p<q;++p){m=a.charCodeAt(p)
-if(B.a0d.t(0,m)){++o;++n}else if(B.a0q.t(0,m))++n
+if(B.a0d.t(0,m)){++o;++n}else if(B.a0r.t(0,m))++n
 else if(n>0){k.push(new A.ta(r,p,B.rD,o,n))
 r=p
 o=0
@@ -10976,8 +10976,8 @@ if(l.length<2)continue
 k=l[0]
 j=A.P(k).h("H<1,e>")
 i=A.G(new A.H(k,A.bgK(),j),j.h("ac.E"))
-h=n==="msp"?B.a0l:null
-if(n==="\u0414\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u0433\u043e\u0432\u043e\u0440")h=B.a0i
+h=n==="msp"?B.a0m:null
+if(n==="\u0414\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u0433\u043e\u0432\u043e\u0440")h=B.a0j
 g=A.a([],q)
 for(f=1;f<l.length;++f){e=l[f]
 d=A.t(a0,r)
@@ -11036,7 +11036,7 @@ l=l.ga8(l)
 r=t.N
 while(l.v()){q=l.gN(l)
 p=q.a
-if(B.a0u.t(0,p))continue
+if(B.a0g.t(0,p))continue
 o=q.b
 q=J.ah(o)
 if(q.ga1(o))continue
@@ -27225,8 +27225,8 @@ _.d=null
 _.e=$
 _.c=_.a=null
 _.$ti=a},
-aY8(a,b){return new A.xr(b,B.au,B.a0m,a,null)},
-aY9(a){return new A.xr(null,null,B.a0n,a,null)},
+aY8(a,b){return new A.xr(b,B.au,B.a0n,a,null)},
+aY9(a){return new A.xr(null,null,B.a0o,a,null)},
 aYa(a,b){var s,r=a.Ci(t.bb)
 if(r==null)return!1
 s=A.nR(a).j0(a)
@@ -33505,7 +33505,7 @@ $2(a,b){this.a.$2(B.b.dG(a,t.m),b)},
 $S:421}
 A.aPy.prototype={
 $1(a){var s=A.fn(a,0,null)
-if(B.a0h.t(0,B.b.ga4(s.gwW())))return s.k(0)
+if(B.a0i.t(0,B.b.ga4(s.gwW())))return s.k(0)
 v.G.window.console.error("URL rejected by TrustedTypes policy flutter-engine: "+a+"(download prevented)")
 return null},
 $S:445}
@@ -36615,7 +36615,7 @@ if((q.x1&1)!==0){s=q.a.b
 if(s!==B.aa){q=q.p4
 q===$&&A.b()
 r=s===B.bb
-q=B.a0t.t(0,q)
+q=B.a0u.t(0,q)
 s=this.b.a
 if(q){s===$&&A.b()
 q=A.ar(r)
@@ -38288,7 +38288,7 @@ E1(a){var s
 if(this.b==null)return!0
 s=$.ck
 if((s==null?$.ck=A.f0():s).b)return!0
-if(!B.a0k.t(0,a.type))return!0
+if(!B.a0l.t(0,a.type))return!0
 if(!J.d(a.target,this.b))return!0
 s=$.ck;(s==null?$.ck=A.f0():s).sEB(!0)
 this.m()
@@ -38328,7 +38328,7 @@ if(i.e){if($.bW().geL()!==B.cz||J.d(a.type,"touchend")||J.d(a.type,"pointerup")|
 return!0}s=$.ck
 if((s==null?$.ck=A.f0():s).b)return!0
 if(++i.d>=20)return i.e=!0
-if(!B.a0s.t(0,a.type))return!0
+if(!B.a0t.t(0,a.type))return!0
 if(i.b!=null)return!1
 r=A.mt("activationPoint")
 switch(a.type){case"click":r.se9(new A.BZ(a.offsetX,a.offsetY))
@@ -66155,7 +66155,7 @@ break A}q=null}return q},
 I(a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=this,a1=null
 a0.yf(a2)
 s=A.an(a2)
-r=a0.gcJ().a.fQ(B.a0r)
+r=a0.gcJ().a.fQ(B.a0s)
 q=t.EK
 p=A.eP(r,q)
 p.D(0,B.aF)
@@ -77006,7 +77006,7 @@ l(a,b){var s=this
 if(b==null)return!1
 return b instanceof A.L8&&b.a===s.a&&b.b===s.b&&b.d===s.d&&J.d(b.f,s.f)&&A.vt(b.e,s.e)},
 gB(a){var s=this,r=s.e
-return A.a_(s.a,s.b,s.d,s.f,A.b9z(r==null?B.a0o:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.a_(s.a,s.b,s.d,s.f,A.b9z(r==null?B.a0p:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.aJR.prototype={
 gev(){var s=this.d
 return s==null?this.gbT():s},
@@ -84863,7 +84863,7 @@ break A}if("redo"===a){s=B.a9t
 break A}s=A.aa(A.p9(A.a([A.lR("Unknown undo direction: "+a)],t.D)))}return s}}
 A.at9.prototype={}
 A.agi.prototype={
-$2(a,b){return new A.xm(b,B.a0p,this.a.f,null)},
+$2(a,b){return new A.xm(b,B.a0q,this.a.f,null)},
 $S:557}
 A.agj.prototype={
 $1(a){return A.b8x(this.a,a)},
@@ -88329,7 +88329,7 @@ if(g.f){s=g.c.a.a
 s=B.d.ac(g.e,s.length)
 $.ai.toString
 $.be()
-r=B.a0g.t(0,A.bc())
+r=B.a0h.t(0,A.bc())
 if(r){q=i.y1>0?i.y2:h
 if(q!=null&&q>=0&&q<s.length){g=q+1
 s=B.d.kx(s,q,g,B.d.S(i.a.c.a.a,q,g))}}g=i.fr
@@ -104423,7 +104423,7 @@ if(q!==B.C0)if(q!==B.C1){s=r&&q===B.nr
 p=s}return this.wF(a,!0,!0,b.b.c,q===B.C2,p,p,b.d)}}
 A.ate.prototype={
 azN(a,b){var s,r=A.aZv(a),q=r==null?null:r.geE()
-if(B.a0j.t(0,q))return!1
+if(B.a0k.t(0,q))return!1
 s=this.b&&B.CB.t(0,q)?"_top":""
 this.a.open(a,s,"noopener,noreferrer")
 return!0},
@@ -111693,8 +111693,8 @@ B.ny=new A.fE(B.c4,B.hE)
 B.X0=new A.d6([B.jX,B.GT,B.k_,B.pb,B.a1_,B.pb,B.CV,B.pc,B.CW,B.pi,B.CK,B.pj,B.hO,B.a_w,B.hP,B.a_v,B.k0,B.a_y,B.k1,B.a_x,B.hI,B.ny,B.hL,B.jO],t.Fp)
 B.XW={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Esc:49,Escape:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.X2=new A.c3(B.XW,[458907,458873,458978,458982,458833,458832,458831,458834,458881,458879,458880,458805,458801,458794,458799,458800,786544,786543,786980,786986,786981,786979,786983,786977,786982,458809,458806,458853,458976,458980,458890,458876,458875,458828,458791,458782,458783,458784,458785,458786,458787,458788,458789,458790,65717,786616,458829,458792,458798,458793,458793,458810,458819,458820,458821,458856,458857,458858,458859,458860,458861,458862,458811,458863,458864,458865,458866,458867,458812,458813,458814,458815,458816,458817,458818,458878,18,19,392961,392970,392971,392972,392973,392974,392975,392976,392962,392963,392964,392965,392966,392967,392968,392969,392977,392978,392979,392980,392981,392982,392983,392984,392985,392986,392987,392988,392989,392990,392991,458869,458826,16,458825,458852,458887,458889,458888,458756,458757,458758,458759,458760,458761,458762,458763,458764,458765,458766,458767,458768,458769,458770,458771,458772,458773,458774,458775,458776,458777,458778,458779,458780,458781,787101,458896,458897,458898,458899,458900,786836,786834,786891,786847,786826,786865,787083,787081,787084,786611,786609,786608,786637,786610,786612,786819,786615,786613,786614,458979,458983,24,458797,458891,458835,458850,458841,458842,458843,458844,458845,458846,458847,458848,458849,458839,458939,458968,458969,458885,458851,458836,458840,458855,458963,458962,458961,458960,458964,458837,458934,458935,458838,458868,458830,458827,458877,458824,458807,458854,458822,23,458915,458804,21,458823,458871,786850,458803,458977,458981,787103,458808,65666,458796,17,20,458795,22,458874,65667,786994],t.eL)
-B.Y7={"\u041e\u041c\u0413":0,"\u041c\u041c\u0413":1,"\u041a\u0411\u041c":2,"\u041e\u041c\u0421":3,"\u041a\u041a\u0421":4,"\u0423\u0414\u0422\u0412":5,"\u041a\u044d\u0442\u0435\u0440\u0438\u043d\u0433":6,"\u041e\u0421\u041a":7,"\u041e\u041a\u041a":8,"\u041e\u0422\u041a":9,"\u041c\u042d\u041c":10,"\u041c\u0422\u041a":11,"\u041a\u0430\u0437\u0413\u041f\u0417":12}
-B.X3=new A.c3(B.Y7,["assets/dzo/omg.png","assets/dzo/mmg.png","assets/dzo/kbm.jpeg","assets/dzo/omc.png","assets/dzo/kks.png","assets/dzo/udtv.png","assets/dzo/catering.png","assets/dzo/osc.png","assets/dzo/occ.png","assets/dzo/otk.png","assets/dzo/mem.png","assets/dzo/mtc.jpg","assets/dzo/kazgpz.png"],t.li)
+B.Y8={"\u041e\u041c\u0413":0,"\u041c\u041c\u0413":1,"\u041a\u0411\u041c":2,"\u041e\u041c\u0421":3,"\u041a\u041a\u0421":4,"\u0423\u0414\u0422\u0412":5,"\u041a\u044d\u0442\u0435\u0440\u0438\u043d\u0433":6,"\u041e\u0421\u041a":7,"\u041e\u041a\u041a":8,"\u041e\u0422\u041a":9,"\u041c\u042d\u041c":10,"\u041c\u0422\u041a":11,"\u041a\u0430\u0437\u0413\u041f\u0417":12}
+B.X3=new A.c3(B.Y8,["assets/dzo/omg.png","assets/dzo/mmg.png","assets/dzo/kbm.jpeg","assets/dzo/omc.png","assets/dzo/kks.png","assets/dzo/udtv.png","assets/dzo/catering.png","assets/dzo/osc.png","assets/dzo/occ.png","assets/dzo/otk.png","assets/dzo/mem.png","assets/dzo/mtc.jpg","assets/dzo/kazgpz.png"],t.li)
 B.X6=new A.d6([8,"\\b",9,"\\t",10,"\\n",11,"\\v",12,"\\f",13,"\\r",34,'\\"',39,"\\'",92,"\\\\"],t.TM)
 B.X7=new A.d6([1,"MEDIA_ERR_ABORTED",2,"MEDIA_ERR_NETWORK",3,"MEDIA_ERR_DECODE",4,"MEDIA_ERR_SRC_NOT_SUPPORTED"],t.TM)
 B.X8=new A.d6([1,"The user canceled the fetching of the video.",2,"A network error occurred while fetching the video, despite having previously been available.",3,"An error occurred while trying to decode the video, despite having previously been determined to be usable.",4,"The video has been found to be unsuitable (missing or in a format not supported by your browser)."],t.TM)
@@ -111721,10 +111721,10 @@ B.HU=new A.x(1,0.9137254901960784,0.11764705882352941,0.38823529411764707,B.l)
 B.Xf=new A.c3(B.Y1,[B.h,B.c7,B.dB,B.pt,B.b8,B.e5,B.q3,B.px,B.pz,B.HU,B.bI,B.q4,B.c7],t.XH)
 B.XV={"\u0412\u044b\u0441\u043e\u043a\u0430\u044f":0,"\u0421\u0440\u0435\u0434\u043d\u044f\u044f":1,"\u041d\u0435\u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f":2,"\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u043d\u044b\u0435":3,"\u0420\u0430\u0437\u0440\u0435\u0448\u0451\u043d\u043d\u044b\u0435":4}
 B.Xg=new A.c3(B.XV,[1,2,3,0,0],t.eL)
-B.Y6={"iso_8859-1:1987":0,"iso-ir-100":1,"iso_8859-1":2,"iso-8859-1":3,latin1:4,l1:5,ibm819:6,cp819:7,csisolatin1:8,"iso-ir-6":9,"ansi_x3.4-1968":10,"ansi_x3.4-1986":11,"iso_646.irv:1991":12,"iso646-us":13,"us-ascii":14,us:15,ibm367:16,cp367:17,csascii:18,ascii:19,csutf8:20,"utf-8":21}
+B.Y7={"iso_8859-1:1987":0,"iso-ir-100":1,"iso_8859-1":2,"iso-8859-1":3,latin1:4,l1:5,ibm819:6,cp819:7,csisolatin1:8,"iso-ir-6":9,"ansi_x3.4-1968":10,"ansi_x3.4-1986":11,"iso_646.irv:1991":12,"iso646-us":13,"us-ascii":14,us:15,ibm367:16,cp367:17,csascii:18,ascii:19,csutf8:20,"utf-8":21}
 B.d7=new A.RG()
 B.cA=new A.O6()
-B.Xh=new A.c3(B.Y6,[B.d7,B.d7,B.d7,B.d7,B.d7,B.d7,B.d7,B.d7,B.d7,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.a8,B.a8],A.aS("c3<e,rw>"))
+B.Xh=new A.c3(B.Y7,[B.d7,B.d7,B.d7,B.d7,B.d7,B.d7,B.d7,B.d7,B.d7,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.cA,B.a8,B.a8],A.aS("c3<e,rw>"))
 B.XS={"ch.dyussenov@kmg.kz":0,"as.ospanov@kmg.kz":1,"a.khassenov@kmg.kz":2,"k.iskaziyev@kmg.kz":3,"da.muratbay@kmg.kz":4,"e.uteyev@kmg.kz":5,"b.abaiyldanov@kmg.kz":6,"b.akzhanov@kmg.kz":7,"t.kobeisinov@kmg.kz":8,"d.shakabayev@kmg.kz":9,"n.tamenov@kmg.kz":10,"d.zhamil@kmg.kz":11,"r.grossul@kmg.kz":12,"sh.jumagaziyeva@kmg.kz":13}
 B.xW=new A.c3(B.XS,["ch.dyussenov","as.ospanov","A.Khassenov","K.Iskaziyev","da.muratbay","e.uteyev","b.abaiyldanov","B.Akzhanov","T.Kobeisinov","D.Shakabayev","n.tamenov","d.zhamil","R.Grossul","Sh.Jumagaziyeva"],t.li)
 B.Yb={type:0}
@@ -112407,37 +112407,37 @@ B.hW=new A.jr(7,"ELEMENT")
 B.kn=new A.jr(10,"PROCESSING")
 B.ko=new A.jr(11,"TEXT")
 B.a0f=new A.ev([B.km,B.kp,B.or,B.os,B.hW,B.kn,B.ko],t.Pa)
-B.a0g=new A.ev([B.b_,B.cp,B.ad],t.MA)
+B.Y6={msp:0}
+B.a0g=new A.er(B.Y6,1,t.fF)
+B.a0h=new A.ev([B.b_,B.cp,B.ad],t.MA)
 B.XO={"canvaskit.js":0}
-B.a0h=new A.er(B.XO,1,t.fF)
+B.a0i=new A.er(B.XO,1,t.fF)
 B.XR={contractor:0,position_title:1,total_per_worker:2,net_salary:3,dzo:4,year:5,status:6,salary:7,total_employees:8}
-B.a0i=new A.er(B.XR,9,t.fF)
+B.a0j=new A.er(B.XR,9,t.fF)
 B.CC=new A.ev([B.d1,B.bN,B.ba,B.cm,B.bX],t.Lu)
 B.Y3={javascript:0}
-B.a0j=new A.er(B.Y3,1,t.fF)
-B.Y8={click:0,keyup:1,keydown:2,mouseup:3,mousedown:4,pointerdown:5,pointerup:6}
-B.a0k=new A.er(B.Y8,7,t.fF)
+B.a0k=new A.er(B.Y3,1,t.fF)
+B.Y9={click:0,keyup:1,keydown:2,mouseup:3,mousedown:4,pointerdown:5,pointerup:6}
+B.a0l=new A.er(B.Y9,7,t.fF)
 B.XT={dzo:0,contractor:1,net_salary:2,total_per_worker:3,"\u041d\u0430\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u0435\u0439":4,"\u041c\u0435\u0441\u044f\u0446":5,"\u041c\u0435\u0441\u044f\u0446\u2116":6}
-B.a0l=new A.er(B.XT,7,t.fF)
-B.a0m=new A.ev([B.b_,B.ad,B.cp],t.MA)
-B.a0p=new A.er(B.cf,0,A.aS("er<ae_<db>>"))
-B.a0o=new A.er(B.cf,0,A.aS("er<e9>"))
-B.a0n=new A.er(B.cf,0,A.aS("er<hv>"))
+B.a0m=new A.er(B.XT,7,t.fF)
+B.a0n=new A.ev([B.b_,B.ad,B.cp],t.MA)
+B.a0q=new A.er(B.cf,0,A.aS("er<ae_<db>>"))
+B.a0p=new A.er(B.cf,0,A.aS("er<e9>"))
+B.a0o=new A.er(B.cf,0,A.aS("er<hv>"))
 B.d2=new A.er(B.cf,0,A.aS("er<cX>"))
-B.a0q=new A.ev([32,8203],t.Ih)
+B.a0r=new A.ev([32,8203],t.Ih)
 B.ak=new A.cX(1,"focused")
 B.ag=new A.cX(0,"hovered")
 B.aF=new A.cX(2,"pressed")
-B.a0r=new A.ev([B.ak,B.ag,B.aF],A.aS("ev<cX>"))
+B.a0s=new A.ev([B.ak,B.ag,B.aF],A.aS("ev<cX>"))
 B.CD=new A.ev([B.km,B.kp,B.hW,B.kn,B.ko],t.Pa)
 B.XQ={click:0,touchstart:1,touchend:2,pointerdown:3,pointermove:4,pointerup:5}
-B.a0s=new A.er(B.XQ,6,t.fF)
+B.a0t=new A.er(B.XQ,6,t.fF)
 B.a07=new A.iz(8,"row")
 B.a01=new A.iz(1,"tab")
-B.a0t=new A.ev([B.a07,B.a01],A.aS("ev<iz>"))
+B.a0u=new A.ev([B.a07,B.a01],A.aS("ev<iz>"))
 B.CE=new A.ev([B.ba,B.bN,B.d1,B.bX,B.cm],t.Lu)
-B.Y9={msp:0,"\u0414\u0430\u043d\u043d\u044b\u0435 \u0434\u043e\u0433\u043e\u0432\u043e\u0440":1,dogovora_algoritm:2}
-B.a0u=new A.er(B.Y9,3,t.fF)
 B.It=new A.x(0.23529411764705882,0,0,0,B.l)
 B.G1=new A.b_(0.5,B.G,B.It,B.em,10)
 B.Uj=s([B.G1],t.V)
